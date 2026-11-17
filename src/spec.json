@@ -1,0 +1,317 @@
+{
+  "title": "Prenotazione sale riunioni",
+  "description": "Prototipo navigabile per consultare il calendario settimanale delle sale, verificare le prenotazioni e inserire nuovi incontri con dati di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "calendario",
+      "title": "Calendario settimanale",
+      "description": "Panoramica delle prenotazioni per sala e fascia oraria. Usa i filtri per restringere gli incontri visualizzati.",
+      "metrics": [
+        {
+          "label": "Sale disponibili",
+          "value": "4"
+        },
+        {
+          "label": "Prenotazioni settimana",
+          "value": "12"
+        },
+        {
+          "label": "Prossima disponibilità",
+          "value": "Mar 14:00"
+        }
+      ],
+      "columns": [
+        "Giorno",
+        "Orario",
+        "Sala",
+        "Incontro",
+        "Organizzazione",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lunedì",
+          "09:00–10:00",
+          "Lumo",
+          "Pianificazione spazi",
+          "Comune di Nubi",
+          "Confermata"
+        ],
+        [
+          "Lunedì",
+          "11:00–12:00",
+          "Vela",
+          "Verifica progetto Aurora",
+          "Rete di Brina",
+          "Confermata"
+        ],
+        [
+          "Lunedì",
+          "14:00–15:00",
+          "Nubi",
+          "Incontro operativo",
+          "Officina Lieve",
+          "In attesa"
+        ],
+        [
+          "Martedì",
+          "09:00–10:30",
+          "Lumo",
+          "Coordinamento servizi",
+          "Comune di Nubi",
+          "Confermata"
+        ],
+        [
+          "Martedì",
+          "11:00–12:00",
+          "Riva",
+          "Revisione attività",
+          "Studio Piuma",
+          "Confermata"
+        ],
+        [
+          "Martedì",
+          "14:00–15:00",
+          "Vela",
+          "Tavolo di lavoro",
+          "Rete di Brina",
+          "Confermata"
+        ],
+        [
+          "Mercoledì",
+          "09:30–10:30",
+          "Nubi",
+          "Aggiornamento progetto",
+          "Officina Lieve",
+          "Confermata"
+        ],
+        [
+          "Mercoledì",
+          "13:00–14:00",
+          "Riva",
+          "Pianificazione trimestre",
+          "Comune di Nubi",
+          "In attesa"
+        ],
+        [
+          "Giovedì",
+          "10:00–11:00",
+          "Lumo",
+          "Confronto operativo",
+          "Studio Piuma",
+          "Confermata"
+        ],
+        [
+          "Giovedì",
+          "14:00–15:30",
+          "Vela",
+          "Laboratorio idee",
+          "Rete di Brina",
+          "Confermata"
+        ],
+        [
+          "Venerdì",
+          "09:00–10:00",
+          "Nubi",
+          "Riepilogo settimanale",
+          "Comune di Nubi",
+          "Confermata"
+        ],
+        [
+          "Venerdì",
+          "11:00–12:00",
+          "Riva",
+          "Verifica attività",
+          "Officina Lieve",
+          "Confermata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "prenotazioni",
+      "title": "Elenco prenotazioni",
+      "description": "Tabella filtrabile per consultare, verificare e gestire le richieste di utilizzo delle sale.",
+      "metrics": [
+        {
+          "label": "Confermate",
+          "value": "10"
+        },
+        {
+          "label": "In attesa",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Data",
+        "Orario",
+        "Sala",
+        "Incontro",
+        "Organizzazione",
+        "Referente",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lunedì 6",
+          "09:00–10:00",
+          "Lumo",
+          "Pianificazione spazi",
+          "Comune di Nubi",
+          "Lina Vela",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Lunedì 6",
+          "11:00–12:00",
+          "Vela",
+          "Verifica progetto Aurora",
+          "Rete di Brina",
+          "Milo Nubi",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Lunedì 6",
+          "14:00–15:00",
+          "Nubi",
+          "Incontro operativo",
+          "Officina Lieve",
+          "Talia Riva",
+          "5",
+          "In attesa"
+        ],
+        [
+          "Martedì 7",
+          "09:00–10:30",
+          "Lumo",
+          "Coordinamento servizi",
+          "Comune di Nubi",
+          "Neri Lumo",
+          "8",
+          "Confermata"
+        ],
+        [
+          "Martedì 7",
+          "11:00–12:00",
+          "Riva",
+          "Revisione attività",
+          "Studio Piuma",
+          "Vela Sori",
+          "3",
+          "Confermata"
+        ],
+        [
+          "Martedì 7",
+          "14:00–15:00",
+          "Vela",
+          "Tavolo di lavoro",
+          "Rete di Brina",
+          "Lina Vela",
+          "7",
+          "Confermata"
+        ],
+        [
+          "Mercoledì 8",
+          "09:30–10:30",
+          "Nubi",
+          "Aggiornamento progetto",
+          "Officina Lieve",
+          "Milo Nubi",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Mercoledì 8",
+          "13:00–14:00",
+          "Riva",
+          "Pianificazione trimestre",
+          "Comune di Nubi",
+          "Talia Riva",
+          "6",
+          "In attesa"
+        ],
+        [
+          "Giovedì 9",
+          "10:00–11:00",
+          "Lumo",
+          "Confronto operativo",
+          "Studio Piuma",
+          "Neri Lumo",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Giovedì 9",
+          "14:00–15:30",
+          "Vela",
+          "Laboratorio idee",
+          "Rete di Brina",
+          "Vela Sori",
+          "9",
+          "Confermata"
+        ],
+        [
+          "Venerdì 10",
+          "09:00–10:00",
+          "Nubi",
+          "Riepilogo settimanale",
+          "Comune di Nubi",
+          "Lina Vela",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Venerdì 10",
+          "11:00–12:00",
+          "Riva",
+          "Verifica attività",
+          "Officina Lieve",
+          "Milo Nubi",
+          "4",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Data",
+        "Orario",
+        "Sala",
+        "Incontro",
+        "Organizzazione",
+        "Referente",
+        "Partecipanti",
+        "Stato"
+      ]
+    },
+    {
+      "id": "nuova-prenotazione",
+      "title": "Nuova prenotazione",
+      "description": "Inserisci una richiesta di utilizzo di una sala. Le disponibilità vengono verificate tramite la consultazione del calendario.",
+      "metrics": [],
+      "columns": [
+        "Data",
+        "Orario",
+        "Sala",
+        "Incontro",
+        "Organizzazione",
+        "Referente",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Data",
+        "Orario",
+        "Sala",
+        "Incontro",
+        "Organizzazione",
+        "Referente",
+        "Partecipanti",
+        "Stato"
+      ]
+    }
+  ]
+}
